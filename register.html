@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>注册界面</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/user.css" />
+  </head>
+
+  <body>
+    <div class="form-container">
+      <h1 class="title">快来注册</h1>
+      <form id="formContainer" class="form-wrapper register">
+        <div class="form-item">
+          <input
+            id="userName"
+            class="text"
+            type="text"
+            placeholder="输入一下你的用户名"
+          />
+        </div>
+        <div class="form-item nick-name">
+          <input
+            id="userNickname"
+            class="text"
+            type="text"
+            placeholder="输入一下你的昵称"
+          />
+        </div>
+        <div class="form-item user-password">
+          <input
+            id="userPassword"
+            class="text"
+            type="password"
+            placeholder="输入一下注册密码吧"
+          />
+        </div>
+        <div class="form-item">
+          <input
+            id="userConfirmPassword"
+            type="password"
+            placeholder="再次输入密码确认一下哦"
+          />
+        </div>
+        <input class="signin" type="submit" value="注册" />
+      </form>
+      <div class="copy-rights">
+        <p>
+          Designed by the most lovely Deng Yuqi.<a
+            class="switch-register"
+            href="./login.html"
+            >已有账号，快去登录</a
+          >
+        </p>
+      </div>
+    </div>
+    <script src="./js/http.js"></script>
+    <script src="./js/register.js"></script>
+  </body>
+</html>

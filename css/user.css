@@ -1,0 +1,105 @@
+.form-container {
+  background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ffile1.renrendoc.com%2Ffileroot2%2F2020-1%2F10%2F1f480344-1a12-4bcc-b1b7-c2429153a477%2F1f480344-1a12-4bcc-b1b7-c2429153a4771.gif&refer=http%3A%2F%2Ffile1.renrendoc.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653915927&t=66207962c66458630736c67b16e97b9e");
+  background-size: 100% 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding-top: 100px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 400;
+  font-weight: bold;
+  color: #5e0b0b;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.form-wrapper {
+  background: #fddbf5;
+  position: relative;
+  width: 570px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 40px 0 60px;
+  overflow: hidden;
+}
+
+/* register特殊样式处理 */
+
+.form-wrapper.register {
+  padding: 40px 0 100px;
+}
+
+.form-item {
+  height: 58px;
+  padding: 0 40px;
+}
+
+.form-item > input {
+  width: 100%;
+  height: 100%;
+  color: #9199aa;
+  font-size: 18px;
+  outline: none;
+  background: url(../img/user.png) no-repeat left center;
+  background-color: transparent;
+  background-size: 24px 24px;
+  text-indent: 60px;
+  border: none;
+  border-bottom: 1px solid#484856;
+}
+
+.form-item.nick-name > input {
+  background-image: url(../img/nickname.png);
+}
+
+.form-item > input[type="password"] {
+  background-image: url(../img/password.png);
+}
+
+.password-container {
+  margin-bottom: 46px;
+}
+
+.signin {
+  height: 76px;
+  position: absolute;
+  line-height: 76px;
+  font-size: 30px;
+  width: 100%;
+  color: #666;
+  outline: none;
+  border: none;
+  background: #ffc0e2;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.signin:hover {
+  background: #ff2775;
+  transition: all 0.5s linear;
+}
+
+.switch-register {
+  color: #9b9898;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.switch-register:hover {
+  color: #ff2775;
+}
+
+.copy-rights {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+}
